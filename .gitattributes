@@ -3,3 +3,9 @@
 /.github export-ignore
 /.editorconfig export-ignore
 /.craft.yml export-ignore
+# فرض استخدام LF (Unix-style) لجميع الملفات النصية
+* text=auto eol=lf
+
+# استثناء ملفات محددة من التحويل (مثل ملفات الصور أو الثنائية)
+*.png binary
+*.jpg binary

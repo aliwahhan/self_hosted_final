@@ -1,5 +1,6 @@
-ARG SENTRY_IMAGE
+ARG SENTRY_IMAGE=getsentry/sentry:nightly
 FROM ${SENTRY_IMAGE}
+
 
 COPY . /usr/src/sentry
 
